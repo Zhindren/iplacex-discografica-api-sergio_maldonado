@@ -1,1 +1,1 @@
-# iplacex-discografica-api-sergio_maldonado
+API REST Spring para administración de discografías favoritas de empleados de IPLACEX
