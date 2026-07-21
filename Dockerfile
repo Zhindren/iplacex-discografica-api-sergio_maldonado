@@ -1,4 +1,4 @@
-FROM gradle:8.5-jdk17 AS build
+FROM gradle:jdk17 AS build
 WORKDIR /app
 COPY --chown=gradle:gradle . /app
 RUN gradle clean build -x test 
